@@ -1,0 +1,8 @@
+.todo-list {
+  background-color: #fff;
+  color: #172b4d;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+}

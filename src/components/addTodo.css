@@ -1,0 +1,11 @@
+.add__todo {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 5px 10px;
+}
+
+.add__todo button {
+  margin-right: 5px;
+  border: none;
+}

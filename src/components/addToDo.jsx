@@ -1,23 +1,22 @@
 import React from "react";
-import { useState } from "react";
 import "./addTodo.css"
 import TodoForm from "./toDoForm";
 
 class AddTodo extends React.Component {
-	state = {
-		showForm: false
-	}
-
 	showAddForm = () => {
-		this.setState({ showForm: true });
+		this.props.onForm();
 	}
 
 	render() {
 		return (
 			<>
 			{
-				this.state.showForm ? (
-					<TodoForm />
+				this.props.status ? (
+					<TodoForm 
+						status={this.props.status} 
+						onHide={this.props.onHide}
+						onAdd={this.props.onAdd}
+					/>
 				) : (
 					<div className="add__todo">
 						<button onClick={this.showAddForm}>

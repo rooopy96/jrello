@@ -1,12 +1,19 @@
 import React from "react";
 import "./toDoList.css";
 
-const TodoList = () => {
+const TodoList = props => {
+	const deleteTodo = () => {
+		props.onDelete(props.name)
+	}
+	
 	return (
 		<>
-			<li className="todo-list">Hi</li>
-			<li className="todo-list">Good</li>
-			<li className="todo-list">Evening</li>
+			<li className="todo-list">
+				<span className="list-title">{props.name}</span>
+				<button onClick={deleteTodo} className="list-delete">
+					<i className="fas fa-trash-alt"></i>
+				</button>
+			</li>
 		</>
 	)
 }

@@ -1,0 +1,52 @@
+.lists__form {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  transform: translateY(-17px);
+}
+
+.lists__form-header {
+  opacity: 0.7;
+  width: 95%;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 5px 5px;
+}
+
+.lists__form-hide {
+  position: absolute;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.lists__form-btn {
+  border: none;
+  background-color: transparent;
+  color: #172b4d;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.lists__form-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.lists__form__add-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.lists__form__add-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

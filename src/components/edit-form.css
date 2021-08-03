@@ -1,0 +1,35 @@
+.edit-form {
+  position: absolute;
+  right: -176px;
+  top: 32px;
+  background-color: #fff;
+  width: 200px;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.edit-form-title {
+  opacity: 0.7;
+  width: 95%;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 5px 5px;
+}
+
+.edit-form-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form-actions button {
+  background-color: transparent;
+  border: none;
+  color: #172b4d;
+  font-size: 1rem;
+  padding: 10px 0px;
+}
+
+.edit-form-actions button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

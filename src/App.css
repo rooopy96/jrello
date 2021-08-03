@@ -8,3 +8,23 @@ body,
   width: 100%;
   height: 100vh;
 }
+
+.list-board {
+  display: flex;
+}
+
+.list-wrapper {
+  display: inline-block;
+  width: 240px;
+  margin-right: 10px;
+}
+
+.add__todos {
+  position: absolute;
+  right: 0;
+  margin: 3px 10px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+}
